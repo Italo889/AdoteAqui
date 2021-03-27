@@ -16,12 +16,11 @@ header {
     background-color: #F4AA24;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 header h2 {
-    margin-left: 30px;
     font-family: 'Yusei Magic', sans-serif;
     color: #7111A8;
 }
@@ -29,7 +28,6 @@ header h2 {
 ul {
     display: flex;
     list-style: none;
-    margin-right: 30px;
 }
 
 ul li {
@@ -40,6 +38,7 @@ ul li a {
     text-decoration: none;
     color: #7111A8;
     font-weight: bold;
+    font-family: 'Yusei Magic', sans-serif;
 }
 
 ul li a:hover {
@@ -50,7 +49,7 @@ main {
     height: 80vh;
     width: 100vw;
 
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .info {
@@ -67,6 +66,19 @@ main {
     font-size: 2rem;
     padding: 40px;
     font-family: 'Yusei Magic', sans-serif;
+    margin-bottom: 80px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagens img {
+    width: 240px;
+    height: 160px;
 }
 
 footer {
