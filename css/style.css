@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +22,8 @@ header {
 
 header h2 {
     margin-left: 30px;
+    font-family: 'Yusei Magic', sans-serif;
+    color: #7111A8;
 }
 
 ul {
@@ -34,19 +38,35 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color: #000;
+    color: #7111A8;
     font-weight: bold;
 }
 
 ul li a:hover {
-    border-bottom: 1px solid #7111A8;
-    color: #7111A8;
+    color: #000000;
 }
 
 main {
     height: 80vh;
     width: 100vw;
-    background-color: #e7e7e7;
+
+    margin-top: 50px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #5B5B5B;
+    width: 100vw;
+    height: 3rem;
+}
+
+.info h3 {
+    font-size: 2rem;
+    padding: 40px;
+    font-family: 'Yusei Magic', sans-serif;
 }
 
 footer {
