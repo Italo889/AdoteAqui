@@ -27,6 +27,10 @@ header h2 {
     color: #7111A8;
 }
 
+header h2 a {
+    color: #7111A8;
+}
+
 ul {
     display: flex;
     list-style: none;
