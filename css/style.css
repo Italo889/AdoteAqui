@@ -189,3 +189,30 @@ footer {
     color: #000;
     font-weight: 500;
 }
+
+@media(max-width: 700px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        height: 10rem;
+    }
+
+    .lista-de-caes, .lista-de-gatos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .caes img, .gatos img {
+        min-width: 80%;
+        max-height: 60%;
+    }
+}
+
+@media(max-width: 498px) {
+    .fundo {
+        height: 20rem;
+    }
+}
