@@ -197,6 +197,19 @@ footer {
         height: 10rem;
     }
 
+    header .logo {
+        font-size: 3.2rem;
+        margin-left: 2rem;
+    }
+
+    header ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-right: 0.2rem;
+    }
+
     .lista-de-caes, .lista-de-gatos {
         display: flex;
         justify-content: center;
@@ -209,10 +222,18 @@ footer {
         min-width: 80%;
         max-height: 60%;
     }
+
+    .saiba-mais p {
+        text-align: center;
+    }
 }
 
 @media(max-width: 498px) {
     .fundo {
         height: 20rem;
+    }
+
+    .saiba-mais p {
+        text-align: center;
     }
 }
